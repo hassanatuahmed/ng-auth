@@ -1,0 +1,7 @@
+<h1>User Dashboard</h1>
+<div *ngIf="user">
+  <p>Email: {{ user.email }}</p>
+  <p *ngIf="user.name">Welcome, {{ user.name }}!</p>
+
+</div>
+  

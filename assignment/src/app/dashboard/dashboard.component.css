@@ -1,0 +1,31 @@
+.dashboard-container {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f6f8;
+    min-height: 100vh;
+  }
+  
+  .profile-card {
+    display: inline-block;
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: left;
+    margin-top: 1rem;
+  }
+  
+  .profile-card p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  
